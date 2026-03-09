@@ -9,6 +9,10 @@ const app = express();
 
 app.use(express.json());
 
+app.get("/", (req, res) => {
+  res.send("Pride Backend API Running");
+});
+
 const adminRoutes = require("./src/routes/adminRoutes");
 
 app.use("/api/admin", adminRoutes);
