@@ -1,0 +1,587 @@
+{
+    "name": "Pride MMA and Fitness",
+    "logo": "/images/pridemmalogo.png",
+    "navigation": {
+        "menu": [
+            {
+                "name": "About Us",
+                "path": "/about",
+                "component": "AboutUs"
+            },
+            {
+                "name": "Classes",
+                "path": "/classes",
+                "component": "Classes"
+            },
+            {
+                "name": "Class Schedule",
+                "path": "/classSchedule",
+                "component": "ClassSchedule"
+            },
+            {
+                "name": "Contact Us",
+                "path": "/contactus",
+                "component": "ContactUs"
+            },
+            {
+                "name": "Membership",
+                "path": "/membership",
+                "component": "Membership"
+            },
+            {
+                "name": "Upcoming Event",
+                "path": "/upcomingEvent",
+                "component": "UpcomingEvent"
+            }
+        ],
+        "cta": {
+            "label": "Get Free Trial",
+            "route": "contact",
+            "path": "/GetFreeTrial",
+            "component": "ContactUs"
+        }
+    },
+    "homePage": {
+        "hero": {
+            "title": "Unleash Your Potential",
+            "description": "More than a gym. We are a community built on respect, discipline, and pride.",
+            "bgImage": "https://lh3.googleusercontent.com/aida-public/AB6AXuCBNtFO9Z7bGdlClmlIESQLIjeyFtdFmRmGdg7K3ymIztDTrN3WAFvdwb254VD4NOCOhmzAK58MbHWFUotRLIbDb20kY-2TXeWGvEEgql2oj_zGiohxlqqapYGGmA_jokMlkNsZ8fZg7BLuJdzcqlJlcaUin8NPbXhtZttqPM7WTbbaAwnnsw0zpF43ft_Wbx339KR1pwzUESRP7LSfgo4DVX0bEqIj5Og9lfC5rnTh2n9fXDDqR77QtGw0_3TxzeOtDYc5DZbZoEI",
+            "primary": {
+                "name": "View Classes",
+                "route": "/classes"
+            },
+            "secondary": {
+                "name": "Get Your Free Pass",
+                "route": "/getFreeTrial"
+            }
+        },
+        "philosophy": {
+            "title": "Our Philosophy",
+            "description": "We are built on a foundation of core values that guide every class, every member, and every challenge.",
+            "align": "center",
+            "cards": [
+                {
+                    "id": "strength-technique",
+                    "title": "Strength & Technique",
+                    "icon": "fitness_center",
+                    "description": "Master the art of combat with expert coaching and a focus on proper form."
+                },
+                {
+                    "id": "community-respect",
+                    "title": "Community & Respect",
+                    "icon": "favorite",
+                    "description": "Join a supportive family that pushes you to be your best, both on and off the mats."
+                },
+                {
+                    "id": "fitness-discipline",
+                    "title": "Fitness & Discipline",
+                    "icon": "neurology",
+                    "description": "Build mental and physical fortitude through rigorous, structured training programs."
+                }
+            ]
+        },
+        "programs": {
+            "title": "Find Your Fight",
+            "cards": [
+                {
+                    "title": "Mixed Martial Arts",
+                    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuC3RA1CdGT1GRjVnkbPQOZY4XJlbND1R6MC0VrBKOq-ImZsd_7IB29VU83t7RJWxeLkZP81YZBdr4qG-t4ySXX0QncJlsdGtrO28V3U9KtWFW-3SaXsGZsO6j5tz6T6da7KfFJjWe48PJs0pFs4gywPtBAoZERefQzlxOHsargULsgdZmYPCtRu6MC4SHkF3DLxdkBiDCLiQfG67LlfoiNvbVAxYov5ffhkC1YglKFbZpr05PWiqwL3ew_u3fYm1RSMgAFo8_geTKU"
+                },
+                {
+                    "title": "Brazilian Jiu-Jitsu",
+                    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuA8dZxCQ5k1XZZJ1MEIXl8TsQ0pfbVs2O2hPIZC_LDiPb5JVVthsRMhlit6bgtJmP5r1VvYly9HFM7vOa8ptuHJGwy8PZ-y_judYgqLyjrZW77_NiH-Cxr_lGaz5BNBaP9tHcLzk6ICKvQ0CJ6Z3IPjeZftldW0iMUAdebBzB95TWKwFIAOeSKCqfUrIqYOwhBZmBJeyyaYA2LwvnCGbD8bcKMeCK1nEQ2fcUU6YnWdY_51SMCN9-mzSNF0oxVOpp5HfYOHeRL2GJ8"
+                },
+                {
+                    "title": "Muay Thai",
+                    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBs9yy3rgp843o-KZFPe0CM_wXxXuyjAyMqtFIzTkAKDLDc31qQmXA86_kdzKK8ANK8reFtme1hE1Dr0x4mMJUvmEANnPzejE_pXg-iZYa_LW7KT-XFYupH0ETxFFy6GnKVcQehav3CMQ6Eow4J0ZMMcIsJlVoNPanWXFE7muISVaped3AhtY9iC2gxnYkDdxY3HURJViGWHvQxM88L1c_jC6-T_nApgH9CQic2qrzEZlVUKEDye3WPH5Ig6vCdXTPJX7hMj3nnMkA"
+                },
+                {
+                    "title": "Strength & Conditioning",
+                    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBCOi0Sre5JQ3MYxsYK0EdOEL_DpaHTZnMt2rnSQSB3APecrYRwRO48YDx7swGZrMSjxmD9z99c6mvYJXiydghS4gkEqeXKwB4C5s47DGRXRl32DDz02VUONnARi11vKo5MSrJ3PAVMZq7vEGqBvtx--niwD_CT6gz9g5s4T9vjJKPihth2gTwmc_ZUWhsRKxinqWh9rV37kSx3LVgf9Pibs_cNQQz1esuL3u330RBC24tQDeNJiwLn8jUHncB9DFzc_3QE2GbXggQ"
+                }
+            ]
+        },
+        "testimonials": {
+            "title": "What Our Members Say",
+            "description": "Hear from the people who make our community what it is.",
+            "showDescription": "true",
+            "cards": [
+                {
+                    "quote": "This place changed my life. The coaches are world-class and the community is like a second family.",
+                    "name": "John D.",
+                    "memberSince": "2021",
+                    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAU5KA1-rIGS5RwwB4iGISfCY6TOnDtf_8Pag3cRy6wpxhtUcWjLGV6U_KIbv5mfaH78HUUX47qRM_bIIIK-WAiijfOQQRbO_gDdvuwdLuKbL5J75LyypuJPkHGPsCcX5E9jnMPKro_lNmXO1MXzH0YXesr560xpUFIKwIZTCZSbYQVFYLGw6BxiD-vRFdwWoIKqUo0QQiNOV5OOAqqht_l1x-RUwyMffFqgcKdXN5KKx6B_KcXwE2qLg8tdinq0KsigC8GA2l1Uk8"
+                },
+                {
+                    "quote": "As a complete beginner, I was nervous, but everyone was so welcoming. It's challenging but incredibly rewarding.",
+                    "name": "Sarah K.",
+                    "memberSince": "2022",
+                    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuC35k2PU28yT3D0nrpW4DjRRwEG_wGHPzFwXE-qHMGd7CkNi_TgBHHq7hJK66C7ogFFJiRw5jlRmC8AAW0l6UbKbEAGbmnJuXH1eMfur7i0d_wpas5-9THi60__KnY21sj3U3BnTgaS-cDOCxGHvL2PiUXjJ0S0C82uGRINhM22vT2NFy5CpSUu1alRfUJQfFqQSwyhqC_FBKqSPNUU0ItOa_kNmo2MHNWJU6IsFAFGvR0X870Q2hVZF21TRelm_pu_aJh1Z3pa9og"
+                },
+                {
+                    "quote": "The best training environment in the city, hands down. Great energy, great people.",
+                    "name": "Mike R.",
+                    "memberSince": "2019",
+                    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuATCtQq-SBysiv3eZKcpnjcwX3yifqvBEDYFMajUP9rOZUAkg-7aCFnSpUvGVhzL4jmL09BMOIsJ9OIJrIdBsGZmK_Qkc-ZYwWdEvQ8TGjOb7H6GRTGakOOvyWrLnLsJcsBPjRPj3xnptoBj7DG4a6cewHS9iKkQh-o1vQGYUpLDeJUjkA9ZTN2EN2D5D_9CpvL-Ai8pSvt0hL83HUH94zL25jXvx9IJ7OieS8835zfmfKzdCPAoNTmsC_EJpM7bOZ-_SQA9sriSwU"
+                }
+            ]
+        }
+    },
+    "aboutUs": {
+        "hero": {
+            "title": "Forged by Passion. Defined by Pride.",
+            "description": "Empowering individuals through the discipline and community of martial arts and fitness.",
+            "bgImage": "https://lh3.googleusercontent.com/aida-public/AB6AXuBR9wGTAcyA9JOse6B4Qz5NLofS2nN-P4DlXlehCxOaow2OAKK3BEW2fND_A1nCr44xIAg0LwG9gzbS87ytz4g1gEyJLdNva-AD-qcI_zp4RwkFm9h1l4FK-qwoL0AdZKur4juMH200o3uLYJjvtF86vtfBUWNRb3KBlou7AJYg3p1RVD4sOSCRAiOO0-4x5Hitq45WWkLmRRutbCPk6KbOyiIHt5CwHNc4MnrO5HvMJHSR7c2fYczWtJLE90FGaj98cSVkOlyfSRg"
+        },
+        "story": {
+            "title": "Our Story",
+            "description": "Founded in 2010 by former champion Mark 'The Lion' Riley, Pride MMA and Fitness Club started as a small, dedicated space for serious fighters. It has since grown into a premier facility, evolving with a mission to make the discipline and benefits of martial arts accessible to everyone, from beginners to professional athletes."
+        },
+        "mission": {
+            "title": "Our Mission & Values",
+            "description": "Our purpose is to empower individuals through martial arts and fitness, fostering a community built on respect, integrity, and perseverance.",
+            "align": "left",
+            "cardAlign": "left",
+            "cards": [
+                {
+                    "id": "community",
+                    "title": "Community",
+                    "icon": "groups",
+                    "description": "Fostering a supportive and inclusive environment for all members."
+                },
+                {
+                    "id": "discipline",
+                    "title": "Discipline",
+                    "icon": "verified_user",
+                    "description": "Cultivating mental and physical focus through dedicated training."
+                },
+                {
+                    "id": "strength",
+                    "title": "Strength",
+                    "icon": "fitness_center",
+                    "description": "Building resilience and power, both inside and out of the gym."
+                }
+            ]
+        },
+        "team": {
+            "title": "Meet the Team",
+            "persons": [
+                {
+                    "name": "Alex Chen",
+                    "role": "Head BJJ Coach",
+                    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAWgC5lhfYNdhfdc4NpiqHh13g9XFeN8NZyMQMYTmJcAR5u42BYIt_zd_fJjrqfw_lTxale0NKbYR1d4XBwIb-cQ7WfCUEbidwCokwub_DFFfOIhcYsg7YW8tCYFQLkHR33gZ_ikKzeX_GQPQPHY75e5QRlNskWGaBoCLvWYLj5eP4ioRXt7LWvKyryCMwcrAEQCwLwE7xv1CMyAkRWg87oHr6OIIZ78q3-VpDeKVMl88E0nUnEfXT-yywC9Rq0bSMGHjCT42EuSf4",
+                    "description": "A 3rd-degree black belt with over 15 years of competitive experience."
+                },
+                {
+                    "name": "Maria Rodriguez",
+                    "role": "Muay Thai Instructor",
+                    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBy2q_VPG1hpUInr_WB19nwp19ex61JSL9zOBPEh3Ovbfv6Jjmv8reMPpJxibsYbPYB-9bycoF2Ulw-leDawQiJKMtRu1H5uejcD1foDPIzPviUZNCvzjWixbKBslOo7hNU9x3x6WKd_1QCcrG9ifMc_Z992kXcUTm-eUEIlgPamW1de9cOLEQogJp3fNbB5vPFSQZAd8UH1ZzSCOP7J53J-k01SjxuEMQ_fiMQc4j8Sh3G32j_pgeqPKGGP7Zhl4cjK29zVy7c11U",
+                    "description": "Former national champion with a passion for teaching authentic striking."
+                },
+                {
+                    "name": "David Carter",
+                    "role": "Strength & Conditioning",
+                    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuARINb3brfTlcGa40NlOe3PHnYzwCqfGatM0kJs9EbiobaptaCH-muzCoKkCztJ0-rB8rX4jHmTeFly9OaM3ePtJhC0g0SZ4hOQ80juLdp3Q3M45i2IklEcIdyLnlb4AwqTQVD7a7O5KwBgzIuJFFf0vFAd2e5wK4S2XGxqYye22QclvUwRUcaKXX4IrebTKstjxZgumIhCwf20ZxlrLlCdhxmCkiftnut1TcWWlywYdKdm05CDtC4dRh3SJW2m6PDs2qEfY8HbljA",
+                    "description": "Certified trainer specializing in explosive power for combat athletes."
+                }
+            ]
+        },
+        "Book Your Free Trial": {
+            "heading": "Ready to Start Your Journey?",
+            "description": "Join a community dedicated to growth, strength, and mutual respect. Visit us or book a free trial class to experience the Pride difference.",
+            "button": "Book Your Free Trial"
+        }
+    },
+    "classes and programs": {
+        "hero": {
+            "title": "Classes & Programs",
+            "description": "Discipline, Strength, Community. Find the fighter in you and forge a better version of yourself with our world-class programs.",
+            "bgImage": "https://lh3.googleusercontent.com/aida-public/AB6AXuCC8GRj-uflqthxM3wIQE-qNWDf5OeMrrTigQwLZ9wo0gqLmpGn4ZvM_BYkGwuk42zQUlLPEalFBzMFYFy240yM5bfbEiBhyZpZPUHHfU4QOp4NhCoE60KJ8wOHbMLFvqtMxiaFfNcyZ2tUfR2B0VSXBgQTaUcSZolfrJ9RAPmj9BblFw1QBRLOU5VUtn-x3KhUU2RFkRrQdq7tIde_K89Rb43Yj8RFMPojOP4cVXzy9qJyj5q812PMTJ1aKx_s9DAx-EwaEk3DrII"
+        },
+        "program section": {
+            "menu": [
+                {
+                    "title": "All"
+                },
+                {
+                    "title": "MMA"
+                },
+                {
+                    "title": "Fitness"
+                },
+                {
+                    "title": "Youth"
+                }
+            ],
+            "items": [
+                {
+                    "heading": "Muay Thai",
+                    "description": "The art of eight limbs. Master powerful strikes using fists, elbows, knees, and shins.",
+                    "level": "All Levels",
+                    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAR3PyrwnQ5MFEIaCT-Oh3AP_IM5gFCwZohYWsxe7H7ft-IdEZcpq3fxNwGydIwzV6a1We-fkhSTkfFezsFo9j6sjNQwpCXm2ufE3S5_Iid2yFhQbBDAMM61RnmKDYI-Sif0ZygLyJAUW9U8-BlSfB0Q6DtqtIF0rkcALSGAhXQargUaiTEDmLssdBo9Oi1Z_ex3roSenk_zY3usTLoUlhlyOaXl6uVadZXJeU64xBdwMmq9zyWIysWjZf2xHA_b5Si5egAc5VDkdI"
+                },
+                {
+                    "heading": "Brazilian Jiu-Jitsu",
+                    "description": "Dominate on the ground with leverage and technique. Perfect for self-defense and competition.",
+                    "level": "All Levels",
+                    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBxnuEK4Xk7dKakbtKLkM1Elxk7fYsW2muePY4004-NKeFqsN2aUgLFGAvcM7PL1dyXfQy5Q88UIANwcq0okhm0YiBRN6cZplgHPQuOQQQiUjvIkmDLDeLG_m7N2O430TRh7mER9ZZW2oo6irSL8W8ksIC8SWVvJq3EqVXD2Fcdsk3Hzcc_Z9ZLTng6CSjWSOHX56qoOcUPtwqM2pHFsfWcSsxCZ8QI_MDWb-toeWQob02hWdPJuYZoq46Fw8O8qev56gQxGGkL1xA"
+                },
+                {
+                    "heading": "Boxing",
+                    "description": "Sharpen your footwork, speed, and punching power with our expert boxing coaches.",
+                    "level": "Beginner",
+                    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAsBYDki9thCH5xlzjEkEUHchiy1H-TMz6LjqKaLtiQmt5GmGw6S0X1iW15rT7PMa7yJ8V7ALyBzwXgSRolV-IxpvLgxoS8P8cdFhAx5ElTGzprPB7UP34tSY6d47SIfzY97lUMcJ145MTR2f5fF95LGwDztt9IKmNPVHGEBlWVFyPf5EhaUzfm-IDAyjAG6MgMunfFtw2e7Ewm5RdwuWpPi26fJgX1GBTnM5F4_Qn-UsKjE2preXWxBKhmT6m49jpYadwbW1fxiLY"
+                },
+                {
+                    "heading": "Wrestling",
+                    "description": "Build a powerful foundation with fundamental takedowns, throws, and control techniques.",
+                    "level": "All Levels",
+                    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBEkoAwrFzDu9TTW4G_1f-U474VTf9Wg_b7yAXSOANeet9KnlNTRKpnROcif3mQ3DdU3t5kwBT6_SR7_jTCbd7wm5N3ql56DJFlAWn47dIAMgUTieMrYau0kFcd3kdRqlkfVI77jZSMxMkSp3BnxOsnzQBsHQXUuDeM8Rz8E1baAEQJMp-PldJpncEDLX5BCdYcTJvdyjAR-YSZ8RkPzzdrej67aGeWCHhfMfXDcIqKoqQXCA_oRFyaPwaZK6oY81Af17SOQVI0hYc"
+                },
+                {
+                    "heading": "MMA Fundamentals",
+                    "description": "Combine striking and grappling. The essential starting point for your MMA journey.",
+                    "level": "Beginner",
+                    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDVESOlxx-GKTa9_3iKwRgscr3GjGSztLnS5nSkuCVO3j6PNF8V_uxwFORSPJwlgHZtI-e-veJEQ6mlgM3BQup454TToCWqRpP02DYQ6wuXqYvR2Tj5V8NtMEzrr8zCjngVp-mNFWxGGxOncWhNDfdN2NmrilgyH7jKAAfJK5qDxQu7Tk-FdV1EZmJ097CoAKCZXMXUmSLdaeQfl6Dh7bWH_4ZQ-W5xEHpO9LWDtke-ySb-cAfhM-diezI76djRF3v2QF6gCwhAdoM"
+                },
+                {
+                    "heading": "Strength & Conditioning",
+                    "description": "Forge elite fitness with functional workouts designed to build strength and endurance.",
+                    "level": "All Levels",
+                    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCFaUH0154vl9lAner6PYaHsFOVwz523-z-GOaD1g7DGijE-P1pVlMX6UK-W9yhQ5yjNDk8x48qwt3UlXBRpP50oWJl9M-oPAK1lHap9m37-WVfveEWoY5ho7mI_FwzmnwZ0Jgdh-eZ_Orsd3zXexqMcyr_y3vhjkp7Nzr5uW8E5lSDSU9F3iVLdktdNouFF0KllKaF5UuA8m4Ta-os1ZtTpdZzwB_fZY0SNqZpLe3izdvYYqrYEkj1H4gFML0R8oLv8PPOHfYA6pQ"
+                },
+                {
+                    "heading": "Yoga for Fighters",
+                    "description": "Improve flexibility, balance, and recovery. An essential complement to intense training.",
+                    "level": "All Levels",
+                    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDstYkC1hb6V7Aghjr5eo5xNwkthmMfgVi74RckhJtlYmwWGu4YbZe8PdOn4Wj6ZDCWrAeZGKeeOsTRjo2PjvLhHf3MPSll_bqb2u8XUxuph0Aw2JwM5vaxplaD1Cj9OeOPH13qUNJD1-5M5PWuPp5L1yayOaV4HPzdzsbOR6VAvXrM0nG96JC_uaWptNhtH53GTvW07C78XWSEr-3f-M_VUEPUAo-eVzb6sPK-5VTBzvNH4lRwrIx_UyW7DRFUoqAvbEiL4oTunkg"
+                },
+                {
+                    "heading": "Youth MMA",
+                    "description": "A fun and safe introduction to mixed martial arts for the next generation of athletes.",
+                    "level": "Youth",
+                    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCWgY7BhGA1eRc4o-D8hNABE0LsmpRocXJ4cUTVioRbeFsNp8KGekxn6isYMYwAPs0ZHIeE07sQDq_dwB0B6lCT4t458bckm5Dw1ryXsW5J29LzZ27hmYMyq916JI4j2pYQK3Zlo9ZQVSw9FI3ey1nvTkdzseebwyeygOPiCXc1Gm0No-UtiI7rI7Oj_bzU1NBfpRVy40Gt8xAawy6-3zzCGX2fPz5SoYkLZHdV3xVldwLYUEleQCuzv3AiEf_DA6nsijmboI7M098"
+                }
+            ],
+            "Book Your Free Trial": {
+                "heading": "Ready to Unleash Your Potential?",
+                "description": "Take the first step on your journey. Your first class is on us.",
+                "button": "Claim Your Free Trial"
+            }
+        }
+    },
+    "Class Schedule": {
+        "hero": {
+            "title": "Class Schedule",
+            "menu": [
+                {
+                    "title": "All"
+                },
+                {
+                    "title": "MMA"
+                },
+                {
+                    "title": "Fitness"
+                },
+                {
+                    "title": "Youth"
+                }
+            ],
+            "class details": [
+                {
+                    "day": "Monday",
+                    "class": [
+                        {
+                            "title": "BJJ Fundamentals",
+                            "time": "6:00 - 7:00 AM",
+                            "coach": "Coach Ana"
+                        },
+                        {
+                            "title": "Muay Thai",
+                            "time": "5:00 - 6:00 PM",
+                            "coach": "Coach Mike"
+                        }
+                    ]
+                },
+                {
+                    "day": "Tuesday",
+                    "class": [
+                        {
+                            "title": "Strength & Cond.",
+                            "time": "6:00 - 7:00 AM",
+                            "coach": "Coach Sara"
+                        },
+                        {
+                            "title": "Kids MMA",
+                            "time": "5:00 - 6:00 PM",
+                            "coach": "Coach Mike"
+                        }
+                    ]
+                },
+                {
+                    "day": "Wednesday",
+                    "class": [
+                        {
+                            "title": "BJJ Advanced",
+                            "time": "6:00 - 7:00 AM",
+                            "coach": "Coach Sara"
+                        },
+                        {
+                            "title": "MMA Sparring",
+                            "time": "5:00 - 6:00 PM",
+                            "coach": "Coach Mike"
+                        }
+                    ]
+                },
+                {
+                    "day": "Thursday",
+                    "class": [
+                        {
+                            "title": "BJJ Advanced",
+                            "time": "6:00 - 7:00 AM",
+                            "coach": "Coach Sara"
+                        },
+                        {
+                            "title": "MMA Sparring",
+                            "time": "5:00 - 6:00 PM",
+                            "coach": "Coach Mike"
+                        }
+                    ]
+                },
+                {
+                    "day": "Friday",
+                    "class": [
+                        {
+                            "title": "No-Gi BJJ",
+                            "time": "6:00 - 7:00 AM",
+                            "coach": "Coach Sara"
+                        },
+                        {
+                            "title": "Boxing Tech",
+                            "time": "5:00 - 6:00 PM",
+                            "coach": "Coach Mike"
+                        }
+                    ]
+                },
+                {
+                    "day": "Saturday",
+                    "class": [
+                        {
+                            "title": "No-Gi BJJ",
+                            "time": "6:00 - 7:00 AM",
+                            "coach": "Coach Sara"
+                        },
+                        {
+                            "title": "Boxing Tech",
+                            "time": "5:00 - 6:00 PM",
+                            "coach": "Coach Mike"
+                        }
+                    ]
+                },
+                {
+                    "day": "Saturday",
+                    "class": "Closed"
+                }
+            ]
+        }
+    },
+    "membership": {
+        "hero": {
+            "title": "Unleash Your Potential. Find Your Pride.",
+            "description": "Join a community of champions dedicated to pushing limits. Whether you're a beginner or a pro, we have a plan to help you achieve your fitness and combat sport goals.",
+            "bgImage": "https://lh3.googleusercontent.com/aida-public/AB6AXuCYdpBmY3r1AV0RYKLnhXUeETuU2pbtb4-bsxEp_opbBfpwXe2ihCmEh53HpLV4LTkJ8MIAHCUMQpl9QA2dWlL7uuH_uX7De5KzPFQhe1sMZaTREEvmfao9iU7mKgA1Frv_ENfyuzLEjh17CYxJcb2a21W-HVzfIGTH2IFRjjiCBJHEGh83kieNr1D66golc8b687vnIQ1Qc5MybJvdsquCUKBx7QD8JfEkMetBvnIRQNXhZrNOeJwiMNJgiFkV3BEkRBUL8JmFNX0",
+            "primary": {
+                "name": "View Plans",
+                "route": "/membership"
+            }
+        },
+        "Membership plans": {
+            "title": "Choose Your Membership",
+            "Plan details": [
+                {
+                    "plan name": "Fighter's Foundation",
+                    "price": "$99",
+                    "duration": "one month",
+                    "button": "Choose Plan",
+                    "benefits": [
+                        "24/7 Gym Access",
+                        "Unlimited Group Fitness Classes",
+                        "Access to MMA Fundamentals",
+                        "Locker Room Access"
+                    ]
+                },
+                {
+                    "plan name": "Champion's Circle",
+                    "price": "$149",
+                    "duration": "one month",
+                    "button": "Choose Plan",
+                    "benefits": [
+                        "All Foundation Benefits",
+                        "Advanced MMA Classes",
+                        "Personal Coaching Session",
+                        "Nutrition Guidance"
+                    ]
+                },
+                {
+                    "plan name": "Annual Pride",
+                    "price": "$1500",
+                    "duration": "one year",
+                    "button": "Choose Plan",
+                    "benefits": [
+                        "All Foundation Benefits",
+                        "Advanced MMA Classes",
+                        "Personal Coaching Session",
+                        "Nutrition Guidance"
+                    ]
+                }
+            ]
+        },
+        "reviews": [
+            {
+                "name": "Sarah J.",
+                "description": "Champion's Circle Member",
+                "comment": "Joining Pride MMA was the best decision I've ever made. The coaches are incredible, and the community is so supportive. I've never felt stronger or more confident!",
+                "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBlbEA06-RanmU1gbM1whTX21fNN_AZvw0Z_-w3Lg587rGKkn5Gc26EnVjlD3vOQ1belEFN9JD5bhwXXEMRVNv1ktF3YojGRRSFZ4WvKRbEkCCNq9cwkl0o13VKD_2T6cMI7CYNmSe_A-hxQdWHh9JAuaQbs8TotNFOp695VGIs4i5dCqOJZo4h1_9qKD5BniAFGroF8TaHc2tpJb5XwDqQG9xI8hveVPB2AC72qORTy8E1BqN1VKOaITEn_Bq8DFfspfDRt14H5VI"
+            },
+            {
+                "name": "Mike R.",
+                "description": "Fighter's Foundation Member",
+                "comment": "As a beginner, I was nervous, but everyone at Pride made me feel welcome. The fundamentals class is perfect for learning the ropes and getting a killer workout.",
+                "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAt7HvwJpkAzkoOWhOST4QMQ5I-9NKyULbew7xQb5P20HwvGaXN7OjBsj-p01dn5whIWVJSE0zN3CpV_4SVC-5yfcOVnhJ1PPk4IvO2lBUCFVrxzCsm_2FJXTYMzcYpwN0fhCvT-WZM8zrtEiN32dignMiIvHy7mn_wdI0u5FQFqbIHaYFguUxXnrGIJcALcQxa0aGmzBTTVmkdFhRMQBoa0bAznG-DFWST66xPTXW3qbAABMVPPcomzF6WIR0PmrMhI07iH_X6LxI"
+            }
+        ],
+        "FAQ section": [
+            {
+                "question": "What are the gym's hours?",
+                "answer": "Our gym is accessible 24/7 for members. Staffed hours for sign-ups and assistance are from 8 AM to 8 PM on weekdays and 10 AM to 6 PM on weekends."
+            },
+            {
+                "question": "Can I try a class before signing up?",
+                "answer": "Absolutely! We offer a free trial class for all new visitors. You can book your trial class through our schedule page or by contacting us directly."
+            },
+            {
+                "question": "What is your cancellation policy?",
+                "answer": "We offer flexible membership options. Our monthly plans can be canceled with 30 days' notice. Annual memberships are non-refundable but offer the best value."
+            }
+        ]
+    },
+    "contact us": {
+        "header": "Get In Touch",
+        "description": "We're here to help and answer any question you might have. We look forward to hearing from you.",
+        "details": [
+            {
+                "Phone Number": "(123) 456-7890",
+                "icon": "icon",
+                "text": "Call Us"
+            },
+            {
+                "Email Address": "contact@pridemma.com",
+                "icon": "icon",
+                "text": "copy"
+            },
+            {
+                "Address": "123 Pride Street, Fightsville, FS 45678",
+                "icon": "icon",
+                "text": "Get Directions"
+            }
+        ],
+        "Hours of Operation": {
+            "day": "6:00 AM - 10:00 PM",
+            "Saturday": "8:00 AM - 8:00 PM",
+            "Sunday": "10:00 AM - 6:00 PM"
+        },
+        "Send Us a Message": {
+            "Full Name": "Name",
+            "Email Address": "you@example.com",
+            "Subject": "inquiry about classes",
+            "Your Message": "Message",
+            "button": "Send Message"
+        }
+    },
+    "upcoming events page": {
+        "header":{
+            "heading":"Upcoming Events",
+            "description":"Don't miss out on the action.",
+            "menu": [
+                {
+                    "title": "All Events"
+                },
+                {
+                    "title": "Competitions"
+                },
+                {
+                    "title": "Workshops"
+                },
+                {
+                    "title": "Seminars"
+                }
+            ]
+        },
+        "latest event":{
+            "date":"Nov 15 • 6:00 PM",
+            "title":"Annual Pride Championship",
+            "description":"The biggest fight night of the year is back. Watch our top fighters go head-to-head for the title. Limited VIP seating available.",
+            "image":"https://lh3.googleusercontent.com/aida-public/AB6AXuAHUPkyY-c3oBR81ogE_Bf8d9uokADpY5ocfSZoMt4sP-JemS1zTYGI5aMZReVljcZNbqhiigc-enNZi0hlq5NG23AqNdoVg5GyI1xn3SEAPglVAGE1yAqG9pJs8dDfydir_hPLebBnc7tBuYVA74B6JpE-r5eZ50Z0K9F6J0Aid1pTFKeAxmvZcWs3ggrcHkv7vXmNYdkAdb-NNVR9GpYLKtF-6gJ5qXs4l7mnHdBfVADpLb0Q8M1GnLZqRGQZ0l1d8LSWs9uAuqk",
+            "primary button":"Register Now",
+            "secondary button":"Event Details"
+        },
+        "seminar":{
+            "date":"Oct 12 • 10:00 AM",
+            "title":"Intro to BJJ Seminar",
+            "description":"Perfect for beginners. Learn the fundamentals of Brazilian Jiu-Jitsu defense and positioning from black belt instructors.",
+            "slots left":"24 spots left",
+            "button":"Register"
+        },
+        "Sparring":{
+            "date":"Oct 18 • 6:00 PM",
+            "title":"Inter-Club Sparring Night",
+            "description":"Open mats for all levels. Bring your gear and test your skills in a controlled environment with fighters from other gyms.",
+            "slots left":"Free for members",
+            "button":"Register"
+        },
+        "sold out":"disable"
+    },
+    "footer": {
+        "description": "Forge your strength. Find your pride.",
+        "copyRights": "© 2026 Pride MMA™. All Rights Reserved.",
+        "brandName": "Pride MMA",
+        "tagline": "Forge your strength. Find your pride.",
+        "year": "2026",
+        "founder": {
+            "name": "ragul",
+            "url": "https://www.linkedin.com/in/raguld3v/"
+        },
+        "cofounder": {
+            "name": "mariya",
+            "url": "https://www.linkedin.com/in/mariya-saji7/"
+        },
+        "section": [
+            {
+                "title": "Follow us",
+                "links": [
+                    {
+                        "label": "Instagram",
+                        "href": "#"
+                    },
+                    {
+                        "label": "Facebook",
+                        "href": "#"
+                    }
+                ]
+            },
+            {
+                "title": "Legal",
+                "links": [
+                    {
+                        "label": "Privacy Policy",
+                        "href": "#"
+                    },
+                    {
+                        "label": "Terms & Conditions",
+                        "href": "#"
+                    }
+                ]
+            }
+        ]
+    }
+}

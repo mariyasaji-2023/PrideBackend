@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Form</title>
+</head>
+<body>
+
+<h2>Contact Us</h2>
+
+<form onsubmit="sendToWhatsapp(); return false;">
+  <label>Name:</label><br>
+  <input type="text" id="name" required><br><br>
+
+  <label>Email:</label><br>
+  <input type="email" id="email" required><br><br>
+
+  <label>Message:</label><br>
+  <textarea id="message" required></textarea><br><br>
+
+  <button type="submit">Send</button>
+</form>
+
+<script>
+function sendToWhatsapp() {
+
+  let phoneNumber = "919745775901"; // WhatsApp number (with country code)
+
+  let name = document.getElementById("name").value;
+  let email = document.getElementById("email").value;
+  let message = document.getElementById("message").value;
+
+  let text =
+    "New Contact Form Message:%0A" +
+    "Name: " + name + "%0A" +
+    "Email: " + email + "%0A" +
+    "Message: " + message;
+
+  let url = "https://wa.me/" + phoneNumber + "?text=" + text;
+
+  window.open(url, "_blank");
+}
+</script>
+
+</body>
+</html>
