@@ -1,4 +1,4 @@
-    const Admin = require("../models/adminModel");
+const Admin = require("../models/superAdminModel");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 
@@ -8,7 +8,8 @@ exports.createAdmin = async (req, res) => {
     const username = "admin";
     const password = "admin123";
     const role = "superAdmin";
-    const status = "active"
+    const status = "active";
+    const email = "naveen@pride-mma.com";
 
     const existingAdmin = await Admin.findOne({ username });
 
@@ -22,7 +23,8 @@ exports.createAdmin = async (req, res) => {
       username,
       password: hashedPassword,
       role,
-      status
+      status,
+      email
     });
 
     await admin.save();
@@ -69,20 +71,23 @@ exports.loginAdmin = async (req, res) => {
 
 exports.updateAdmin = async (req, res) => {
   try {
+
     const { username, password, role, status } = req.body;
 
-    const admin = await Admin.findOne();
+    const adminId = req.admin.id;
+    console.log("Admin from token:", req.admin);
+    console.log(adminId)
+
+    const admin = await Admin.findById(adminId);
 
     if (!admin) {
       return res.status(404).json({ message: "Admin not found" });
     }
 
-    // update fields
     if (username) admin.username = username;
     if (role) admin.role = role;
     if (status) admin.status = status;
 
-    // hash password if changed
     if (password) {
       const hashedPassword = await bcrypt.hash(password, 10);
       admin.password = hashedPassword;
@@ -94,6 +99,24 @@ exports.updateAdmin = async (req, res) => {
       message: "Admin updated successfully",
       admin
     });
+
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+};
+
+exports.getAdminProfile = async (req, res) => {
+  try {
+
+    const adminId = req.admin.id;
+
+    const admin = await Admin.findById(adminId).select("-password");
+
+    if (!admin) {
+      return res.status(404).json({ message: "Admin not found" });
+    }
+
+    res.json(admin);
 
   } catch (error) {
     res.status(500).json({ error: error.message });

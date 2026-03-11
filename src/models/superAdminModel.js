@@ -17,6 +17,10 @@ const adminSchema = new mongoose.Schema({
   status:{
     type:String,
     required:true
+  },
+  email:{
+    type:String,
+    required:true
   }
 });
 

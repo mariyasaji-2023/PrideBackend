@@ -16,7 +16,7 @@ app.get("/", (req, res) => {
   res.send("Pride Backend API Running");
 });
 
-const adminRoutes = require("./src/routes/adminRoutes");
+const adminRoutes = require("./src/routes/superAdminRoutes");
 
 app.use("/api/admin", adminRoutes);
 
