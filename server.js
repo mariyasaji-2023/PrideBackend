@@ -17,8 +17,10 @@ app.get("/", (req, res) => {
 });
 
 const adminRoutes = require("./src/routes/superAdminRoutes");
+const accountManagementRoutes = require("./src/routes/accountManagementRoutes");
 
 app.use("/api/admin", adminRoutes);
+app.use("/api/account", accountManagementRoutes);
 
 const PORT = process.env.PORT || 5000;
 
