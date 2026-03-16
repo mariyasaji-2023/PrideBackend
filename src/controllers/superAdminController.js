@@ -26,7 +26,6 @@ exports.createAdmin = async (req, res) => {
       status,
       email
     });
-
     await admin.save();
 
     res.json({ message: "Admin created successfully" });
