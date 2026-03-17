@@ -4,6 +4,8 @@ const accountManagementController = require("../controllers/accountManagementCon
 const protect = require("../middleware/authMiddleware");
 
 router.get("/all-admins", protect, accountManagementController.getAllAdmins);
-router.post("/create-admin",protect,accountManagementController.createAdmin)
+router.post("/create-admin",protect,accountManagementController.createAdmin);
+router.delete("/admin/:id",protect,accountManagementController.deleteAdmin)
+
 
 module.exports = router;
