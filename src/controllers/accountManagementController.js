@@ -99,3 +99,42 @@ exports.deleteAdmin = async (req, res) => {
     });
   }
 };
+
+exports.updateAdmin = async (req, res) => {
+  try {
+    const { id } = req.params;
+
+    // Prevent password update
+    if (req.body.password) {
+      return res.status(400).json({
+        message: "Password cannot be updated here"
+      });
+    }
+
+    const updatedAdmin = await Admin.findByIdAndUpdate(
+      id,
+      req.body,
+      {
+        returnDocument: "after",
+  runValidators: true // apply schema validation
+      }
+    );
+
+    if (!updatedAdmin) {
+      return res.status(404).json({
+        message: "Admin not found"
+      });
+    }
+
+    res.status(200).json({
+      message: "Admin updated successfully",
+      data: updatedAdmin
+    });
+
+  } catch (error) {
+    res.status(500).json({
+      message: "Error updating admin",
+      error: error.message
+    });
+  }
+};
